@@ -1,0 +1,263 @@
+/* Responsive Styles */
+
+/* Large Desktops (1200px and up) */
+@media (min-width: 1200px) {
+  /* No specific changes needed as this is our base design */
+}
+
+/* Regular Desktops and Laptops (992px to 1199px) */
+@media (max-width: 1199px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .submenu-grid {
+    width: 550px;
+  }
+
+  .usp-item {
+    width: 48%;
+    margin-bottom: 20px;
+  }
+
+  .product-card {
+    width: calc(33.333% - 30px);
+  }
+}
+
+/* Tablets and Small Laptops (768px to 991px) */
+@media (max-width: 991px) {
+  .container {
+    max-width: 720px;
+  }
+
+  .main-header .container {
+    flex-wrap: wrap;
+  }
+
+  .logo {
+    margin-right: 20px;
+  }
+
+  .search-bar {
+    order: 3;
+    margin: 15px 0 0;
+    width: 100%;
+  }
+
+  .header-actions {
+    margin-left: auto;
+  }
+
+  .nav-menu > li > a {
+    padding: 15px 10px;
+    font-size: 14px;
+  }
+
+  .submenu-grid {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .submenu-column {
+    width: 50%;
+    flex: none;
+    margin-bottom: 15px;
+  }
+
+  .product-card {
+    width: calc(50% - 30px);
+  }
+
+  .banner-grid {
+    flex-direction: column;
+  }
+
+  .banner {
+    margin-bottom: 20px;
+  }
+
+  .footer-column {
+    width: 50%;
+  }
+}
+
+/* Mobile Landscape (576px to 767px) */
+@media (max-width: 767px) {
+  .container {
+    max-width: 540px;
+  }
+
+  .top-bar .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .top-links {
+    margin-top: 8px;
+  }
+
+  .top-links a {
+    margin: 0 8px;
+  }
+
+  .mobile-menu-toggle {
+    display: flex;
+  }
+
+  .nav-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    flex-direction: column;
+  }
+
+  .nav-menu.active {
+    display: block;
+  }
+
+  .nav-menu > li {
+    padding: 0;
+    border-bottom: 1px solid #eee;
+  }
+
+  .nav-menu > li > a {
+    display: block;
+    padding: 15px;
+  }
+
+  .dropdown-content {
+    position: static;
+    box-shadow: none;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    display: none;
+  }
+
+  .dropdown.active .dropdown-content {
+    display: block;
+  }
+
+  .submenu-grid {
+    padding: 0;
+  }
+
+  .submenu-column {
+    width: 100%;
+    padding: 10px 15px;
+  }
+
+  .slide-content {
+    left: 20px;
+    max-width: 70%;
+  }
+
+  .slide-content h2 {
+    font-size: 24px;
+  }
+
+  .slide-content p {
+    font-size: 14px;
+  }
+
+  .category-circles {
+    justify-content: center;
+  }
+
+  .category-item {
+    width: 120px;
+    margin-bottom: 20px;
+  }
+
+  .usp-item {
+    width: 100%;
+  }
+
+  .product-card {
+    width: calc(100% - 30px);
+  }
+
+  .newsletter-form {
+    flex-direction: column;
+  }
+
+  .newsletter-form input {
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+
+  .newsletter-form button {
+    border-radius: 4px;
+  }
+
+  .footer-column {
+    width: 100%;
+  }
+}
+
+/* Mobile Portrait (up to 575px) */
+@media (max-width: 575px) {
+  .header-actions span {
+    display: none;
+  }
+
+  .header-actions a {
+    margin-left: 15px;
+  }
+
+  .header-actions i {
+    font-size: 24px;
+  }
+
+  .slide-content {
+    left: 15px;
+    max-width: 80%;
+  }
+
+  .slide-content h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+
+  .slide-content p {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .slide-content .btn-shop-now {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+
+  .section-title {
+    font-size: 22px;
+  }
+
+  .banner-content {
+    left: 15px;
+    bottom: 15px;
+  }
+
+  .banner-content h3 {
+    font-size: 18px;
+  }
+
+  .banner-content p {
+    font-size: 14px;
+  }
+
+  .testimonial {
+    padding: 15px;
+  }
+
+  .testimonial-text {
+    font-size: 14px;
+    min-height: auto;
+  }
+}

@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPoojaBox - Pooja Samagri Online Shopping</title>
+
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Slick Slider CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <!-- Top Bar -->
+        <div class="top-bar">
+            <div class="container">
+                <div class="announcement">Free shipping on orders above ₹999</div>
+                <div class="top-links">
+                    <a href="#">Track Order</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Contact Us</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Header -->
+        <div class="main-header">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images\1pic.jpg" alt="MyPoojaBox Logo">
+                    </a>
+                </div>
+
+                <div class="search-bar">
+                    <form action="#" method="get">
+                        <input type="text" placeholder="Search for products">
+                        <button type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+
+                <div class="header-actions">
+                    <a href="#" class="user-account">
+                        <i class="fas fa-user"></i>
+                        <span>Account</span>
+                    </a>
+                    <a href="#" class="wishlist">
+                        <i class="fas fa-heart"></i>
+                        <span>Wishlist</span>
+                    </a>
+                    <a href="#" class="cart">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>Cart</span>
+                        <span class="cart-count">0</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation Menu -->
+        <nav class="main-nav">
+            <div class="container">
+                <button class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                    <span>Menu</span>
+                </button>
+
+                <ul class="nav-menu">
+                    <li class="dropdown">
+                        <a href="#">Pooja Essentials <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <div class="submenu-grid">
+                                <div class="submenu-column">
+                                    <h4>Pooja Items</h4>
+                                    <ul>
+                                        <li><a href="#">Pooja Thali</a></li>
+                                        <li><a href="#">Pooja Kalash</a></li>
+                                        <li><a href="#">Pooja Bell</a></li>
+                                        <li><a href="#">Diya & Lamp</a></li>
+                                        <li><a href="#">Incense Holder</a></li>
+                                    </ul>
+                                </div>
+                                <div class="submenu-column">
+                                    <h4>Daily Needs</h4>
+                                    <ul>
+                                        <li><a href="#">Agarbatti</a></li>
+                                        <li><a href="#">Dhoop</a></li>
+                                        <li><a href="#">Camphor</a></li>
+                                        <li><a href="#">Ghee for Diya</a></li>
+                                    </ul>
+                                </div>
+                                <div class="submenu-column">
+                                    <h4>Featured Products</h4>
+                                    <div class="featured-product">
+                                        <img src="/api/placeholder/120/120" alt="Featured Pooja Set">
+                                        <h5>Complete Pooja Set</h5>
+                                        <p>₹1,299</p>
+                                        <a href="#" class="btn-shop-now">Shop Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">God Idols <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <!-- Similar structure to Pooja Essentials dropdown -->
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Festive Decor <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <!-- Similar structure to Pooja Essentials dropdown -->
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Pooja Boxes <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <!-- Similar structure to Pooja Essentials dropdown -->
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Spiritual Items <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <!-- Similar structure to Pooja Essentials dropdown -->
+                        </div>
+                    </li>
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="#">Offers</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Slider Section -->
+    <section class="hero-slider">
+        <div class="slider">
+            <div class="slide">
+                <img src="images\2pic.jpg" alt="Festival Offers">
+                <div class="slide-content">
+                    <h2>Festival Special Offers</h2>
+                    <p>Up to 40% off on select items</p>
+                    <a href="#" class="btn-shop-now">Shop Now</a>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images\3pic.jpg" alt="New Arrivals">
+                <div class="slide-content">
+                    <h2>New Arrivals</h2>
+                    <p>Discover our latest collection</p>
+                    <a href="#" class="btn-shop-now">Shop Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="section-title">Shop By Category</h2>
+            <div class="category-circles">
+                <div class="category-item">
+                    <a href="#">
+                        <div class="category-image">
+                            <img src="images\3pic.jpg" alt="Pooja Essentials">
+                        </div>
+                        <h3>Pooja Essentials</h3>
+                    </a>
+                </div>
+                <div class="category-item">
+                    <a href="#">
+                        <div class="category-image">
+                            <img src="images\1pic.jpg" alt="God Idols">
+                        </div>
+                        <h3>God Idols</h3>
+                    </a>
+                </div>
+                <div class="category-item">
+                    <a href="#">
+                        <div class="category-image">
+                            <img src="images\1pic.jpg" alt="Festive Decor">
+                        </div>
+                        <h3>Festive Decor</h3>
+                    </a>
+                </div>
+                <div class="category-item">
+                    <a href="#">
+                        <div class="category-image">
+                            <img src="images\2pic.jpg" alt="Pooja Boxes">
+                        </div>
+                        <h3>Pooja Boxes</h3>
+                    </a>
+                </div>
+                <div class="category-item">
+                    <a href="#">
+                        <div class="category-image">
+                            <img src="images\2pic.jpg" alt="Spiritual Items">
+                        </div>
+                        <h3>Spiritual Items</h3>
+                    </a>
+                </div>
+                <div class="category-item">
+                    <a href="#">
+                        <div class="category-image">
+                            <img src="images\2pic.jpg" alt="Gift Sets">
+                        </div>
+                        <h3>Gift Sets</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- USP Section -->
+    <section class="usps">
+        <div class="container">
+            <div class="usp-grid">
+                <div class="usp-item">
+                    <div class="usp-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <div class="usp-content">
+                        <h3>Free Shipping</h3>
+                        <p>On orders above ₹999</p>
+                    </div>
+                </div>
+                <div class="usp-item">
+                    <div class="usp-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="usp-content">
+                        <h3>Secure Payment</h3>
+                        <p>100% secure payment</p>
+                    </div>
+                </div>
+                <div class="usp-item">
+                    <div class="usp-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <div class="usp-content">
+                        <h3>Quality Products</h3>
+                        <p>Authentic & genuine products</p>
+                    </div>
+                </div>
+                <div class="usp-item">
+                    <div class="usp-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <div class="usp-content">
+                        <h3>24/7 Support</h3>
+                        <p>Dedicated customer service</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section class="featured-products">
+        <div class="container">
+            <h2 class="section-title">Bestselling Products</h2>
+            <div class="products-slider">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images\2pic.jpg" alt="Brass Pooja Thali Set">
+                        <div class="wishlist-button">
+                            <i class="far fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Brass Pooja Thali Set</h3>
+                        <div class="product-price">
+                            <span class="current-price">₹1,499</span>
+                            <span class="original-price">₹1,999</span>
+                            <span class="discount">25% Off</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(45)</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images\3pic.jpg" alt="Silver Ganesh Idol">
+                        <div class="wishlist-button">
+                            <i class="far fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Silver Plated Ganesh Idol</h3>
+                        <div class="product-price">
+                            <span class="current-price">₹2,499</span>
+                            <span class="original-price">₹3,299</span>
+                            <span class="discount">24% Off</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(78)</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images\3pic.jpg" alt="Diwali Decoration Set">
+                        <div class="wishlist-button">
+                            <i class="far fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Diwali Decoration Set</h3>
+                        <div class="product-price">
+                            <span class="current-price">₹899</span>
+                            <span class="original-price">₹1,299</span>
+                            <span class="discount">30% Off</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(32)</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images\3pic.jpg" alt="Premium Incense Sticks">
+                        <div class="wishlist-button">
+                            <i class="far fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Premium Incense Sticks</h3>
+                        <div class="product-price">
+                            <span class="current-price">₹299</span>
+                            <span class="original-price">₹399</span>
+                            <span class="discount">25% Off</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(120)</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Banner Section -->
+    <section class="promo-banners">
+        <div class="container">
+            <div class="banner-grid">
+                <div class="banner">
+                    <img src="images\2pic.jpg" alt="Festival Offer">
+                    <div class="banner-content">
+                        <h3>Navratri Special</h3>
+                        <p>Up to 30% off on Pooja items</p>
+                        <a href="#" class="btn-shop-now">Shop Now</a>
+                    </div>
+                </div>
+                <div class="banner">
+                    <img src="images\2pic.jpg" alt="Gift Collection">
+                    <div class="banner-content">
+                        <h3>Spiritual Gifts</h3>
+                        <p>Perfect for all occasions</p>
+                        <a href="#" class="btn-shop-now">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Arrivals Section -->
+    <section class="new-arrivals">
+        <div class="container">
+            <h2 class="section-title">New Arrivals</h2>
+            <div class="products-grid">
+                <!-- Similar to featured products but in grid layout -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images\1pic.jpg" alt="Crystal Shivling">
+                        <div class="wishlist-button">
+                            <i class="far fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Crystal Shivling</h3>
+                        <div class="product-price">
+                            <span class="current-price">₹1,899</span>
+                            <span class="original-price">₹2,499</span>
+                            <span class="discount">24% Off</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(15)</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- More product cards here -->
+            </div>
+            <div class="view-all-container">
+                <a href="#" class="btn-view-all">View All New Arrivals</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Customer Reviews</h2>
+            <div class="testimonials-slider">
+                <div class="testimonial">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"I ordered a complete pooja set and was amazed by the quality.
+                        Everything came well-packaged and the brass items were shining beautifully. Will definitely
+                        order again!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <img src="images\1pic.jpg" alt="Customer">
+                        </div>
+                        <div class="author-info">
+                            <h4>Priya Sharma</h4>
+                            <p>Delhi</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="testimonial-text">"The silver Ganesh idol I purchased is absolutely stunning. The
+                        detailing is exquisite and it arrived on time for my brother's housewarming ceremony. Thank you
+                        MyPoojaBox!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <img src="images\2pic.jpg" alt="Customer">
+                        </div>
+                        <div class="author-info">
+                            <h4>Rahul Verma</h4>
+                            <p>Mumbai</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Subscribe to Our Newsletter</h2>
+                <p>Get exclusive offers, new product updates, and spiritual insights directly to your inbox.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-column">
+                    <h3>Customer Service</h3>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Shipping & Returns</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Track Order</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="#">Pooja Essentials</a></li>
+                        <li><a href="#">God Idols</a></li>
+                        <li><a href="#">Festive Decor</a></li>
+                        <li><a href="#">Pooja Boxes</a></li>
+                        <li><a href="#">Spiritual Items</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Connect With Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                    <div class="payment-methods">
+                        <h4>Payment Methods</h4>
+                        <div class="payment-icons">
+                            <img src="images\2pic.jpg" alt="Visa">
+                            <img src="images\1pic.jpg" alt="Mastercard">
+                            <img src="images\3pic.jpg" alt="PayPal">
+                            <img src="images\1pic.jpg" alt="UPI">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 MyPoojaBox. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <!-- JS Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
